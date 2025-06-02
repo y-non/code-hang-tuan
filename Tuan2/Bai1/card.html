@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="top">
+          <img
+            src="https://media.istockphoto.com/id/1420676204/photo/portrait-of-a-royal-bengal-tiger-alert-and-staring-at-the-camera-national-animal-of-bangladesh.jpg?s=612x612&w=0&k=20&c=0OCYv99Ktv3fJ-YYlg7SetHBJj3pIk58WY7GDy5VCtI="
+            alt=""
+          />
+        </div>
+        <div class="bottom">
+          <h3>Tiger</h3>
+          <h2>Title ABC</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel optio
+            vero autem, velit nihil dolorem explicabo, quaerat earum magnam
+            nostrum voluptatum sed, accusamus quidem accusantium mollitia minus
+            soluta! Tempore, nam?
+          </p>
+
+          <p>
+            by
+            <span
+              style="
+                color: rgb(239, 73, 101);
+                font-weight: 600;
+                font-size: 1.1em;
+              "
+              >Learning Robo</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+
+    /* nếu muốn xài bắt buộc phải là display: flex */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 300px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 8px;
+  }
+
+  .card .top img {
+    width: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .card .bottom {
+    padding: 20px;
+  }
+
+  .card .bottom h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .card .bottom p:nth-last-child(1) {
+    padding-top: 20px;
+  }
+
+  .text-red {
+    color: red;
+  }
+</style>
